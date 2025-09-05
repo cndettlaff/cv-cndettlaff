@@ -44,7 +44,6 @@ cvevents <- function(tbl, when, what, where, details) {
 
 Environmental consultant in training and U.S. Marine Corps veteran with 9 years of proven leadership in global operations. Specialized in risk analysis, GIS, and ecological assessment, with applied research on sturgeon habitats, reef ecosystems, and marine bioacoustics. Experienced in project management, stakeholder engagement, and data-driven decision support. Adept at bridging field ecology, spatial analysis, and risk management to deliver actionable solutions for conservation, infrastructure, and resource management challenges.
 
-
 # Research Experience
 
 ```{r}
@@ -52,13 +51,9 @@ Environmental consultant in training and U.S. Marine Corps veteran with 9 years 
 #| output: asis
 tibble::tribble(
     ~role, ~institution, ~dates, ~details, ~tasks,
-    "Team Lead", "GESIS - Leibniz Institute for the Social Sciences", "Mar. 2022 - Present",
-    "Transparent Social Analytics, Department of Computational Social Science", c("Coordination of a project to build an Open Science platform with reusable code and tutorials", "Research on Open Science Practices", "Implementation of tools to enhance reproducibility and facilitate research with digital data in R"),
-    "Presidential Fellow", "University of Manchester", "Sep. 2018 - Feb. 2022",
-    "Sociology Department", c("Research on Disinformation on Social Media", "Analyses of large scale and unstructured data sets with R, Python and Bash"),
-    "Post Doctoral Researcher", "ETH Zurich", "Nov. 2017 - Aug. 2018", "Chair of Social Networks", c("Developing new methods to analyze social networks", "Implementing methods in libraries", "Gathering and analyzing large datsets from Social Media APIs"),
-    "Post Doctoral Researcher", "University of Konstanz", "Oct. 2015 - Oct. 2017", "Department of Computer & Information Science", c("Developing new methods to analyze social networks", "Implementing methods in libraries", "Webscraping and harmonizing a large corpus of football data"),
-    "Ph.D. Candidate", "University of Konstanz", "Nov. 2012 - Sep. 2015", "Department of Computer & Information Science", c("Developing new methods to analyze social networks", "Implementing methods in libraries")
+    "GIS Analyst and Research Collaborator", "Huson River Project Cornell Lab of Ornithology", "2023 - 2024",
+    "NA", c("Delivered spatial analysis in ArcGIS Pro to map Atlantic Sturgeon habitat use and migration routes in the Hudson River.", "Assessed risks from anthropogenic pressures", "Produced conservation risk maps and predictive models for agency and stakeholder decision making.", "Project outcomes supported state and regional managemnet planning."),
+    "Independent Research", "Cornell University", "2023 - 2024", "NA", c("Designed and executed multi site reserach across Hawaii and the Bahamas.", "Applied quantitative ecological methods and risk-based observation strtegies", "Findings highlighted species roles as potential reef health indicators providing insight for resource management", "Secured partial funding through research grants"),
 ) |>
     cvevents(when = "dates", what = "role", where = "institution", details = "tasks")
 ```
